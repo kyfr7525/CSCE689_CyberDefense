@@ -101,4 +101,4 @@ clf = svm.SVC()
 clf.fit(X, Y) # x is all features and Y are all labels
 pickle.dump(clf, myfile)
 
-# run file `python filename.py mw/file1.exe gw/file2.exe unknown/file3.exe`
+# run file `python filename.py gw/file1.exe mw/file2.exe unknown/file3.exe`  // should it be GW or MW first??
