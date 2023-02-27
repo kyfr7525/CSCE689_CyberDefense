@@ -4,7 +4,8 @@ import sys              # Read argv. You can read from file too.
 import pefile           # lib to parse PE file. Change lib to parse ELF
 from sklearn import svm # Some ML classifier, you can change it
 import os
-# import IPython
+import IPython
+import pickle
 
 ##################################################################################################################################
 
